@@ -1,17 +1,22 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <GroupA />
+  <GroupB />
+  <GroupC />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import GroupA from "./components/groupA.vue";
+import GroupB from "./components/groupB.vue";
+import GroupC from "./components/groupC.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    GroupA,
+    GroupB,
+    GroupC,
+  },
+};
 </script>
 
 <style>
